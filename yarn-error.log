@@ -1,0 +1,43 @@
+Arguments: 
+  D:\nodejs\node.exe D:\yarn\bin\yarn.js add jquery
+
+PATH: 
+  C:\Users\zchaos\AppData\Local\Temp\yarn--1608221756423-0.7669267358068168;C:\Users\zchaos\Desktop\nono\node_modules\.bin;C:\Users\zchaos\AppData\Local\Yarn\Data\link\node_modules\.bin;D:\libexec\lib\node_modules\npm\bin\node-gyp-bin;D:\lib\node_modules\npm\bin\node-gyp-bin;D:\nodejs\node_modules\npm\bin\node-gyp-bin;D:\cmder\vendor\git-for-windows\mingw64\bin;D:\cmder\vendor\git-for-windows\usr\bin;C:\Users\zchaos\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\cmder;D:\yarn\bin;D:\nodejs;C:\Users\zchaos\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;C:\Users\zchaos\AppData\Local\Yarn\bin;C:\Users\zchaos\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  10.22.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\zchaos\Desktop\nono\node_modules\deasync\bin\win32-x64-node-10\deasync.node'
+
+npm manifest: 
+  {
+    "name": "nono",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "parcel src/index.html --open",
+      "build": "rm -rf ./dist&&parcel build  index.html --public-url ./",
+      "delete": "npm uninstall jquery"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "parcel-bundler": "^1.12.4"
+    },
+    "dependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
